@@ -1,0 +1,165 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(to right, #f4acb7, #ff7096, #9d8189);
+    animation: cambiar 10s ease-in-out infinite;
+    padding: 0;
+    margin: 0;
+    background-size: 400% 400%;
+    position: relative;
+    padding-bottom: 300px;
+}
+
+header {
+    height: 65px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+
+}
+
+h2 {
+    color: #513b56;
+    font-size: 40px;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+h3 {
+    color: #513b56;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+
+.card {
+    text-align: center;
+    width: 30%;
+    border: solid #F2F2F2 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card a,
+footer a {
+    color: black;
+}
+
+ul {
+    padding: 50px;
+}
+
+li {
+    color: #355070;
+    background-color: #D8E2DC;
+    padding: 5px;
+    margin: 10px;
+}
+
+.tech-list {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.tech {
+    height: 90px;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: #d8e2dc;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 20px;
+    width: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    left: 25%;
+}
+
+.contenedor2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedor2 a {
+    font-size: 40px;
+    transition: all ease 300ms;
+}
+
+.contenedor2 a :hover {
+    transform: scale(1.2);
+}
+
+.github {
+    color: black;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid rgb(70, 70, 70);
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #ff99c8;
+    color: white;
+    padding: 15px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+textarea:focus,
+input:focus {
+    background-color: rgb(255, 209, 252);
+}
+
+input[type="submit"]:hover {
+    background-color: #ff477e;
+}
+
+@keyframes cambiar {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+footer {
+    background-color: #ffe5d9;
+    color: #6d6875;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
